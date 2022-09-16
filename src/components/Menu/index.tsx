@@ -9,6 +9,7 @@ const Menu = () => {
     <S.Cabecalho>
       <picture>
         <img src={filme} alt="filme" />
+        <h1>LUNAFLIX</h1>
       </picture>
       <nav>
         <ul>

@@ -7,12 +7,11 @@ import dados from "services/dados";
 const Home = () => {
   return (
     <S.Home>
+      <h1>FILMES SÉRIES DOCUMENTÁRIOS ANIMAÇÕES NOVIDADES</h1>
       <picture>
         <img src={carrousel} alt="Imagens principais" />
       </picture>
-      <aside>
-        {dados && dados.map((item) => <CardComponent dados={item} />)}
-      </aside>
+     
     </S.Home>
   );
 };
