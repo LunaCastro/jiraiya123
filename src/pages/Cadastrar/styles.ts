@@ -7,12 +7,13 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 2rem;
+  
   h1 {
     color: ${colors.primary};
     font-weight: 500;
     margin-bottom: 2rem;
     font-size: 2rem;
+    margin-top: 2rem;
   }
   form {
     background-color: ${colors.primary};
