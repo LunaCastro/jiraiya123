@@ -35,10 +35,14 @@ export const Cabecalho = styled.header`
       align-items: center;
       li {
         margin: 0 1.5em;
+        border-width: 1;
+          border-color:${colors.primary};
+          borderRadius: 50;
         a {
           text-decoration: none;
           font-size: 1.4em;
           color: ${colors.primary};
+          
         }
       }
     }

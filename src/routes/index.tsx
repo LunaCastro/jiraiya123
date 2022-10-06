@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { CadastrarPage, HomePage, LayoutPage, LoginPage } from "pages";
-
+import React from "react";
 const Rotas = () => {
   return (
     <Routes>

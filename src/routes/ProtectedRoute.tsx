@@ -2,6 +2,7 @@ import Loading from 'components/Loading';
 import { useAuth } from 'hooks/authContext'
 import { useEffect, useState } from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
+import React from "react";
 
 export default function ProtectedRoute() {
   const [isLoading, setIsLoading] = useState(true);

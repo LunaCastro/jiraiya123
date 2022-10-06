@@ -11,7 +11,7 @@ const Home = () => {
       <picture>
         <img src={carrousel} alt="Imagens principais" />
       </picture>
-     
+  
     </S.Home>
   );
 };

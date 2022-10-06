@@ -4,8 +4,8 @@ import { colors } from "styles/GlobalStyle"
 export const Rodape = styled.footer`
   display: flex;
   align-items: center;
-  height: 2.5rem;
-  background-color: ${colors.secondary};
+  height: 4rem;
+  background-color: ${colors.black};
   div {
     display: flex;
     align-items: center;
