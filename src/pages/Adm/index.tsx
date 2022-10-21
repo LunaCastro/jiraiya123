@@ -1,10 +1,14 @@
-import * as S from "./styles";
+import React, { FormEvent, useState } from "react";
+import * as S from "./style";
 
 const Adm = () => {
     return (
         <S.Adm>
-            Área administrativa 
+             Área Administrativa  
+
         </S.Adm>
-    );
-};
+
+
+    )
+}
 export default Adm;
