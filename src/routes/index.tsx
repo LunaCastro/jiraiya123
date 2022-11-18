@@ -1,6 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import { AdmPage, CadastrarPage, HomePage, LayoutPage, LoginPage } from "pages";
-import React from "react";
+import React from 'react';
+import {
+  AdmMessagePage,
+  AdmMessageStorePage,
+  CadastrarPage,
+  HomePage,
+  LayoutPage,
+  LoginPage
+} from "pages";
 import ProtectedRoute from "./ProtectedRoute";
 const Rotas = () => {
   return (
@@ -9,11 +16,12 @@ const Rotas = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/cadastrar" element={<CadastrarPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route element={<ProtectedRoute />}>
-           <Route path = "/adm" element={<AdmPage />} />
+        <Route path="/adm" element={<ProtectedRoute />}>
+          <Route path="message" element={<AdmMessagePage />} />
+          <Route path="message/:id" element={<AdmMessageStorePage />} />
         </Route>
       </Route>
-     </Routes>
+    </Routes>
   );
 };
 
