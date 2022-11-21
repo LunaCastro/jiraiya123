@@ -6,12 +6,14 @@ export const Cabecalho = styled.header`
   picture svg {
     height: 6rem;
     width: 6rem;
+    background-color: ${colors.black};
   }
   nav {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: ${colors.black};
     ul {
       list-style-type: none;
       display: flex;
