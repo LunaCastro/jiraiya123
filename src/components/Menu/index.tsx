@@ -1,7 +1,8 @@
 import { FcReuse } from "react-icons/fc";
 import { GrLogout } from "react-icons/gr";
 import React from 'react';
-import * as S from "./styles";
+import filme from "assets/img/filme.png";
+import * as S from "./styles"; 
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "hooks/authContext";
 const Menu = () => {
@@ -13,11 +14,11 @@ const Menu = () => {
   }
   return (
     <S.Cabecalho>
-      <picture>
-        <Link to="/">
-          <FcReuse />
+
+        <Link  to="/">
+          <img src={filme} alt="LOGO" />
         </Link>
-      </picture>
+
       <nav>
         {
           user ? (
