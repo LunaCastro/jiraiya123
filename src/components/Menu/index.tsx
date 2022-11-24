@@ -18,6 +18,7 @@ const Menu = () => {
         <Link  to="/">
           <img src={filme} alt="LOGO" />
         </Link>
+        <h1>LUNAFLIX</h1>
 
       <nav>
         {

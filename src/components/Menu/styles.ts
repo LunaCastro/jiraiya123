@@ -3,11 +3,19 @@ import { colors } from "styles/GlobalStyle"
 export const Cabecalho = styled.header`
   display: flex;
   border-bottom: 0.5rem solid ${colors.secondary};
+  align-items: center;
+  background-color: ${colors.black};
   img {
     height: 6rem;
     width: 6rem;
     background-color: ${colors.black};
   }
+    h1{
+      color: ${colors.primary};
+      background-color: ${colors.black};
+      font-size: 3.5rem;
+     
+    }
   nav {
     width: 100%;
     display: flex;
